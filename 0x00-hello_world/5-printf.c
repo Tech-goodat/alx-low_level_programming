@@ -1,12 +1,10 @@
 #include<stdio.h>                                                                                                                       
                                                                                                                                         
-/**                                                                                                                                     
-* main - Print the input message                                                                                                       
-* Return: 0                                                                                                                            
-*/                                                                                                                                     
+/**                                                                                                        
+* main - Print the input message        
+* Return: 0                                                                                                                    */                                                                                                                                     
                                                                                                                                         
 int main(void)                                                                                                                          
-{                                                                                                                                       
-	        printf("with proper grammar, but the outcome is a piece of art,\n");                                                            
+{                                                                                                                                	        printf("with proper grammar, but the outcome is a piece of art,\n");                                                            
 		        return (0);
 }
