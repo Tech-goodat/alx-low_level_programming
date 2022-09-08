@@ -1,9 +1,7 @@
 #include<stdio.h>                                                                                                                       
                                                                                                                                         
-/**                                                                                                                                     
-* main - Print the input message                                                                                                       
-* Return: 0                                                                                                                            
-*/                                                                                                                                     
+/**                                                                                                                            
+* main - print the input message                                                                                               * return: 0                                                                                                                    */                                                                                                                                    
                                                                                                                                         
 int main(void)                                                                                                                          
 {                                                                                                                                       
