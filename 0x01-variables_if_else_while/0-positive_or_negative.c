@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /* more headers goes there */
-/*
+/**
  * main-find a positive or a negative number
  * Return: 0
  */
