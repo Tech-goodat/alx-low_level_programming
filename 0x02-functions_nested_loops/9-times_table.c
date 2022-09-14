@@ -1,23 +1,33 @@
 #include "main.h"
 
 /**
- *  *_abs - computes absolute value
+ *  * times_table - Prints the 9 times table
  *   *
- *    *@i: variable of integer type
- *     *
- *      * Return: 0 always
- *       */
-
-int _abs(int i)
+ *    * Return: no return
+ *     */
+void times_table(void)
 {
+		int a, b, op;
 
-		if (i >= 0)
-				{
-							return (i);
-								}
-			else
+			for (a = 0; a <= 9; a++)
 					{
-								return (i * -1);
-									}
-			return (0);
+								_putchar(48);
+										for (b = 1; b <= 9; b++)
+													{
+																	op = a * b;
+																				_putchar(44);
+																							_putchar(32);
+																										if (op <= 9)
+																														{
+																																			_putchar(32);
+																																							_putchar(op + 48);
+																																										}
+																													else
+																																	{
+																																						_putchar((op / 10) + 48);
+																																										_putchar((op % 10) + 48);
+																																													}
+																															}
+												_putchar('\n');
+													}
 }
