@@ -1,10 +1,20 @@
 #include "main.h"
 /**
- * _putchar included in the head foldeer.
- * return is always zero to proove code workability.
+ * main - main
+ *
+ *
+ * Return: 0 success
  */
-int _putchar(char c)
-{char character[]= "_putchar";
-	putchar("character\n");
-	return 0;
+
+int main(void)
+{
+ int i;
+ char c[8]  = "_putchar";
+
+for (i = 0; i <= 7; i++)
+						{
+							_putchar(c[i]);
+									}
+	_putchar('\n');
+	return (0);
 }
