@@ -18,8 +18,3 @@ void print_number(int n);
 
 
 #endif /* MAIN_H */ 
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-
